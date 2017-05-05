@@ -1,0 +1,1 @@
+This code goes on a SmartRF05 dev board with a CC2540 and displays the accelerometer readings when connected to a keyfob (or BTool)

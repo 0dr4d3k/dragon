@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <configuration>
+    <name>Debug</name>
+    <toolchain>
+      <name>8051</name>
+    </toolchain>
+    <debug>1</debug>
+    <settings>
+      <name>C-STAT</name>
+      <archiveVersion>1</archiveVersion>
+      <data>
+        <version>1</version>
+        <cstatargs>
+          <useExtraArgs>0</useExtraArgs>
+          <extraArgs></extraArgs>
+          <analyzeTimeout>600</analyzeTimeout>
+          <enableParallel>0</enableParallel>
+          <parallelThreads>1</parallelThreads>
+        </cstatargs>
+        <cstatsettings/>
+      </data>
+    </settings>
+  </configuration>
+  <file>
+    <name>$PROJ_DIR$\source\io_multi_in_out.c</name>
+  </file>
+</project>
+
+

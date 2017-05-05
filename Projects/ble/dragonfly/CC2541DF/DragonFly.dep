@@ -1,0 +1,5009 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>366683182</fileChecksum>
+  <configuration>
+    <name>CC2541DF-DragonFly</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Source\serialInterface.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_humi.h</file>
+      <file>$PROJ_DIR$\..\Source\OSAL_DragonFly.c</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_uart.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_drivers.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_crc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\comdef.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_acc.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_sleep.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_aes.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_keys.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\battservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\eventservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_adc.pbi</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\peripheral.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\osal_cbtimer.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_keys.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\serialInterface.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\osal_snv.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_timer.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\controller\CC254x\include\ll.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\peripheral.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL_Timers.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_startup.r51</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2541.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_mag.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_buzzer.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\DragonFly_Main.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_uvi.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\gattservapp_util.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_flash.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\uviservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_pir.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\DragonFly.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_uart.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\gateservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_adc.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_air.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_humi.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OnBoard.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\magnetometerservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_humi.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_buzzer.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL_ClockBLE.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_i2c.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL_Memory.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL_Timers.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\uviservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_crc.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\npi.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_lux.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_air.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\DragonFly_Gate.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\registerservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\ByteBuffer.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\simplekeys.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL_DragonFly.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\intempservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_uart.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\dataloggerservice.pbi</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly.h</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Gate.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\ByteBuffer.c</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\ByteBuffer.h</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Gate.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_humi.c</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly.c</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_interrupt.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\devinfoservice-df.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_dma.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\digitalservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\magnetometerservice.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\sm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\gatt.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_weather.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\df_util.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\DragonFly_Gate.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_suart.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\analogservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL_DragonFly.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_startup.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\peripheral.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\osal_snv.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_qi.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\registerservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\osal_bufmgr.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\weatherservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\testservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\gap.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\serialInterface.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\accservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\gapbondmgr.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\intempservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\testservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\accservice.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\gateservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hiddev.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\osal_bufmgr.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\airservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_assert.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\ccservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\gattservapp_util.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\DragonFly_Main.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\alarmservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_mag.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_sensor.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL_Memory.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\oad_target.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\ByteBuffer.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_debug.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\simplekeys.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_led.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\battservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\dataloggerservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\ccservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\npi.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\oad_target.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hiddev.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\dl_target.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_pir.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_weather.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\dl_target.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\df_util.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\luxometerservice.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sleep.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mag.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_uvi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_acc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_air.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_light.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_suart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_weather.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_buzzer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_keys.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_acc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_air.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_pir.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\uart\hal_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\OnBoard.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_buzzer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_startup.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_lux.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_qi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_debug.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_drivers.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_sleep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_interrupt.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\OnBoard.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_keys.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_pir.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_uvi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_data.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_event.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_tl.h</file>
+      <file>$PROJ_DIR$\..\..\Include\hci_ext.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_lux.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_weather.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_led.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mag.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\hci.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_adc.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_uvi.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_timer.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\gatt_uuid.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\att.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_debug.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_lux.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\digitalservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\analogservice.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\l2cap.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL_ClockBLE.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\eventservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_interrupt.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\gatt_uuid.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_sensor.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_sleep.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OnBoard.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL_PwrMgr.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_aes.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_dma.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_assert.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_qi.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_drivers.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_suart.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\luxometerservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_drivers.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_led.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\OSAL_PwrMgr.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\gapbondmgr.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\gap.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Exe\DragonFly.a51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\devinfoservice-df.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\DragonFly.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\alarmservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\weatherservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\osal_cbtimer.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_i2c.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\airservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_acc.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly\Obj\hal_flash.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\gap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\bcomdef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_bufmgr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Memory.c</file>
+      <file>$PROJ_DIR$\..\..\common\npi\npi_np\npi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Memory.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\ccservice.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_cbtimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\osal_cbtimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_PwrMgr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Timers.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\osal_snv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_PwrMgr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\mcu\cc2540\osal_snv.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\alarmservice.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_ClockBLE.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\accservice.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Timers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Tasks.h</file>
+      <file>$PROJ_DIR$\..\..\Include\gattservapp.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\luxometerservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\devinfoservice-df.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\OAD\oad.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\testservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\eventservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\OAD\oad_target.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\uviservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\df_util.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\weatherservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\accservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\airservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\gateservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\magnetometerservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\peripheral.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\HIDDev\CC254x\hiddev.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\testservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dataloggerservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\GATT\gattservapp_util.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\analogservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\luxometerservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\digitalservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\ccservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Keys\CC254x\simplekeys.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\registerservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\gap.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\gateservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\uviservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Batt\CC254x\battservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\eventservice.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\host\gatt_uuid.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\intempservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\weatherservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\devinfoservice-df.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dl_target.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\OAD\oad_target.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\df_util.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\Source\serialInterface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\OSAL_DragonFly.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177 29 1 229 237 70 196 12 25 249 13 3 139 248 250 233 149 210 179 236 228 79 19 262 65 9 247 140 137 2 258 185 39 178 168 78 191</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DragonFly_Gate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 137 139 9 191 262 163 79 168 241 249 140 1 3 29 247 229 237 170 185 70 102 149 2 13 233 12 196 25 258 201</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\ByteBuffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 139 140 183 247 3 137 69 13 233 12 1 149 29 237 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DragonFly_Main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 29 248 139 3 9 210 65 174 168 240 149 237 169 183 241 170 140 137 2 247 13 233 12 163</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_humi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 3 172 167 9 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DragonFly.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 220</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 3 237 19 258 183 255 182 13 139 185 234 167 149 1 12 196 25 229 39 241 142 172 180 252 256 246 136 176 233 9 178 173 170 210 186 174 79 179 249 250 253 69 254 259 251 257 135 175 181 184 65 140 137 29 247 163 191 168 177 228 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 218</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sleep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mag.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_uvi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_suart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 211</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_weather.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_keys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 214</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_acc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 226</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_air.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_pir.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 189</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\uart\hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\OnBoard.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_buzzer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_startup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_lux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_qi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 209</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_debug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_drivers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 227</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 224</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_interrupt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 206</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_bufmgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\npi\npi_np\npi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_cbtimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_PwrMgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 215</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\mcu\cc2540\osal_snv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\alarmservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 221</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_ClockBLE.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\accservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\airservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\magnetometerservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\peripheral.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\HIDDev\CC254x\hiddev.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\testservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dataloggerservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\GATT\gattservapp_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\analogservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\luxometerservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\digitalservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\ccservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Keys\CC254x\simplekeys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\registerservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\gap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\gateservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\uviservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Batt\CC254x\battservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\eventservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\ble\host\gatt_uuid.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 190</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\intempservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\weatherservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 222</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\devinfoservice-df.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dl_target.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\OAD\oad_target.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\df_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>CC2541DF-DragonFly-OAD-ImgA</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Source\serialInterface.c</file>
+      <file>$PROJ_DIR$\..\Source\serialInterface.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_humi.h</file>
+      <file>$PROJ_DIR$\..\Source\OSAL_DragonFly.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\comdef.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\controller\CC254x\include\ll.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2541.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_uart.h</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly.h</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Gate.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\ByteBuffer.c</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\ByteBuffer.h</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Gate.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_humi.c</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\sm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\gatt.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sleep.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mag.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_uvi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_acc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_air.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_light.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_suart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_weather.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_buzzer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_keys.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_acc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_air.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_pir.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\uart\hal_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\OnBoard.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_buzzer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_startup.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_lux.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_qi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_debug.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_drivers.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_sleep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_crc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_interrupt.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_drivers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_suart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\OnBoard.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_keys.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_pir.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_qi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_uvi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_data.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_event.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_tl.h</file>
+      <file>$PROJ_DIR$\..\..\Include\hci_ext.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_lux.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_weather.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_led.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mag.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\hci.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\att.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\l2cap.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_drivers.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\battservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_interrupt.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\weatherservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_acc.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_keys.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\battservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\DragonFly.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\digitalservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_startup.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_assert.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_flash.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_lux.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\luxometerservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_aes.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\DragonFly_Gate.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\digitalservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\intempservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\dataloggerservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\simplekeys.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_mag.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hiddev.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_buzzer.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_interrupt.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\ByteBuffer.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\testservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\gateservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_drivers.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\serialInterface.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_buzzer.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\dl_target.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_i2c.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\accservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL_Timers.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\simplekeys.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\analogservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\devinfoservice-df.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_keys.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\magnetometerservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_suart.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\gap.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL_Memory.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_uart.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\gateservice.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\gap.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL_ClockBLE.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\devinfoservice-df.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\npi.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_dma.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL_Timers.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OnBoard.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\intempservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_uvi.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_mag.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL_PwrMgr.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\gap.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\osal_cbtimer.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_adc.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\DragonFly.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hiddev.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\osal_bufmgr.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\uviservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\weatherservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_crc.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL_DragonFly.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_led.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\dl_target.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\gatt_uuid.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_sleep.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\ByteBuffer.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\gattservapp_util.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\accservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_suart.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\oad_target.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\airservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_humi.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\ccservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\magnetometerservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL_ClockBLE.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\osal_cbtimer.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_humi.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_dma.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\analogservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_adc.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\gatt_uuid.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_weather.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\DragonFly_Gate.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\oad_target.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_debug.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_drivers.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\alarmservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\airservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\serialInterface.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_sleep.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Exe\DragonFly.d51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_qi.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL_DragonFly.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_air.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_acc.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\df_util.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\eventservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_sensor.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_crc.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_lux.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_air.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_led.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_uvi.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL_PwrMgr.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_weather.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\testservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_qi.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_startup.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_pir.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\luxometerservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\ccservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OnBoard.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\OSAL_Memory.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\DragonFly_Main.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\peripheral.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\peripheral.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\DragonFly_Main.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\df_util.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_flash.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\dataloggerservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\osal_bufmgr.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_aes.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\npi.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\alarmservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_timer.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_assert.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_timer.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\eventservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\uviservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_sensor.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_i2c.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_pir.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_debug.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\hal_uart.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgA\Obj\gattservapp_util.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\bcomdef.h</file>
+      <file>$PROJ_DIR$\..\..\common\npi\npi_np\npi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_bufmgr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Memory.c</file>
+      <file>$PROJ_DIR$\..\..\common\npi\npi_np\npi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Memory.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\ccservice.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_cbtimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\osal_cbtimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_PwrMgr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Timers.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\osal_snv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_PwrMgr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\alarmservice.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_ClockBLE.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\accservice.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Timers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Tasks.h</file>
+      <file>$PROJ_DIR$\..\..\Include\gattservapp.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\luxometerservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\devinfoservice-df.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\OAD\oad.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\eventservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\OAD\oad_target.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\uviservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\df_util.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\weatherservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\accservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\airservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\gateservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\magnetometerservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\peripheral.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\HIDDev\CC254x\hiddev.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\testservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dataloggerservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\GATT\gattservapp_util.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\analogservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\luxometerservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\digitalservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\ccservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Keys\CC254x\simplekeys.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\gap.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\gateservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\uviservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Batt\CC254x\battservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\eventservice.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\host\gatt_uuid.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\intempservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\weatherservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\devinfoservice-df.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dl_target.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\OAD\oad_target.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\df_util.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\Source\serialInterface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 185</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 12 10 33 4 233 250 14 30 32 7 1 232 62 42 3 13 241 9 237 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\OSAL_DragonFly.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 189</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 2 19 241 89 8 11 252 9 4 232 251 253 237 42 32 78 91 80 240 136 23 10 264 14 7 250 33 30 3 260 86 13 79 66 22 88</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DragonFly_Gate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 7 32 250 264 2 23 232 241 245 252 33 4 12 56 88 66 68 86 19 24 42 3 9 237 8 89 11 260 90</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\ByteBuffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 32 33 84 250 4 30 18 9 237 8 2 42 12 241 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DragonFly_Main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 210</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 12 251 32 4 7 91 14 74 66 244 42 241 67 84 245 68 33 30 3 250 9 237 8 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_humi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 4 71 62 7 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DragonFly.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 241 10 9 4 260 84 257 77 2 12 3 32 86 238 29 33 8 89 11 232 13 245 35 71 81 255 258 249 62 83 7 30 237 79 73 68 91 87 74 23 80 252 253 256 18 261 254 259 28 75 82 85 14 42 250 56 88 66 78 136 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sleep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mag.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_uvi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_suart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_weather.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 178</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_keys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_acc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_air.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 190</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_pir.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 205</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\uart\hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 230</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\OnBoard.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_buzzer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_startup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_lux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_qi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 4 2 42 70 3 33 30 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 32 12 42 2 33 30 3 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 4 32 12 2 33 30 3 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_debug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 30 3 4 33 2 12 24 72 42 90 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 42 2 3 13 32 33 30 12 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_drivers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 32 28 64 237 7 56 83 245 42 74 75 77 29 73 9 8 2 12 84 67 13 70 76 82 65 85 71 59 35 250 33 30 3 241</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 215</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 32 63 3 59 4 42 33 12 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 227</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 12 33 4 71 30 32 7 24 72 42 3 66 90 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_interrupt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 32 76 42 28 65 2 12 7 74 75 71 33 30 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 218</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 2 32 59 250 4 42 73 9 237 8 33 30 3 241 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_bufmgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 209</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\npi\npi_np\npi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_cbtimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_PwrMgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\alarmservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_ClockBLE.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\accservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\airservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\magnetometerservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 170</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\peripheral.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 212</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\HIDDev\CC254x\hiddev.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\testservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dataloggerservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\GATT\gattservapp_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 231</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\analogservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\luxometerservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\digitalservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\ccservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Keys\CC254x\simplekeys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\gap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\gateservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\uviservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Batt\CC254x\battservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\eventservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 224</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\ble\host\gatt_uuid.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 177</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\intempservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\weatherservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\devinfoservice-df.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dl_target.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 159</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\OAD\oad_target.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\df_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 214</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>CC2541DF-DragonFly-OAD-ImgB</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Source\serialInterface.c</file>
+      <file>$PROJ_DIR$\..\Source\serialInterface.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_humi.h</file>
+      <file>$PROJ_DIR$\..\Source\OSAL_DragonFly.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\comdef.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\controller\CC254x\include\ll.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2541.h</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly.h</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly-Notes.c</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Gate.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\ByteBuffer.c</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\ByteBuffer.h</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Gate.h</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Net_Core.c</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Net_Core.h</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Oad.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_humi.c</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly_Oad.h</file>
+      <file>$PROJ_DIR$\..\Source\DragonFly.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\sm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\gatt.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sleep.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_air.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mag.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_uvi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_thermostat.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_acc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_air.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_key.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_light.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_suart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_weather.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_buzzer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_plants.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_keys.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_gateway.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_actuator.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_acc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_air.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_pir.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_board_cfg_minimal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\uart\hal_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\OnBoard.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_buzzer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_startup.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_lux.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_qi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\uart\hal_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\services\saddr\saddr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_debug.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_drivers.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_sleep.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_crc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_interrupt.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_drivers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_suart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\ioCC254x_bitdef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\OnBoard.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_keys.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_pir.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_qi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_uvi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_data.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_event.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\hci\hci_tl.h</file>
+      <file>$PROJ_DIR$\..\..\Include\hci_ext.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_lux.h</file>
+      <file>$PROJ_DIR$\..\..\Libraries\CC2541DB\bin\CC2541_BLE_bcast.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\CC2541DB\bin\CC2541_BLE_cent.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\CC2541DB\bin\CC2541_BLE_peri_observ.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_bcast.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_bcast_cent.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\CC2541DB\bin\CC2541_BLE.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\CC2541DB\bin\CC2541_BLE_peri.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\CC2541DB\bin\CC2541_BLE_bcast_observ.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_bcast_observ.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_cent.lib</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_weather.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_led.h</file>
+      <file>$PROJ_DIR$\..\..\Libraries\CC2541DB\bin\CC2541_BLE_bcast_cent.lib</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mag.h</file>
+      <file>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_Full.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_observ.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_None.lib</file>
+      <file>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_peri.lib</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\hci.h</file>
+      <file>$PROJ_DIR$\..\..\Libraries\CC2541DB\bin\CC2541_BLE_observ.lib</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\att.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\l2cap.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\include\hal_drivers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\gap.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\alarmservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\intempservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\testservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_suart.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_assert.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_Timers.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\simplekeys.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_pir.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Main.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\alarmservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\accservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_startup.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\devinfoservice-df.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_lux.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\testservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_suart.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gattservapp_util.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\simplekeys.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\oad_target.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_uart.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_aes.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_air.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_acc.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\df_util.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gattservapp_util.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_drivers.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_sensor.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\osal_cbtimer.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\weatherservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\ccservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_lux.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_interrupt.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\dl_target.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\osal_cbtimer.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_dma.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\intempservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\ccservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\testservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hiddev.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gapbondmgr.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_weather.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\ccservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\uviservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\dl_target.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Main.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gattservapp_util.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\ByteBuffer.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gatt_uuid.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Gate.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_interrupt.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\accservice.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\host\linkdb.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\controller\CC254x\include\ll_timer2.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_Memory.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_weather.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\eventservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\npi.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\simplekeys.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\osal_snv.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_dma.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\analogservice.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\gatt_uuid.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\osal_snv.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\osal_cbtimer.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_sensor.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_DragonFly.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Oad.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\digitalservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_adc.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_ClockBLE.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gateservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_i2c.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_aes.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_startup.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\battservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Exe\DragonFly.hex</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_qi.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gatt_uuid.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_ClockBLE.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Gate.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\eventservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\digitalservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_PwrMgr.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_qi.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\oad_target.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_flash.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\List\DragonFly.map</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\accservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\analogservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\airservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_DragonFly.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gapbondmgr.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_flash.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_i2c.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\luxometerservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Exe\DragonFly.sim</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_assert.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_led.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_PwrMgr.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\ByteBuffer.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\controller\CC254x\include\ll_math.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_uart.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Net_Core.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\eventservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_flash.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Net_Core.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gateservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_sleep.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_debug.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_sleep.r51</file>
+      <file>$PROJ_DIR$\..\..\common\cc2540\df_cc254x_f256_imgB_a148K.xcl</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Exe\DragonFly.d51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Oad.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OnBoard.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\serialInterface.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gapbondmgr.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Main.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_DragonFly.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\npi.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_ClockBLE.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_debug.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\battservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_acc.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_qi.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_dma.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_weather.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_buzzer.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\dataloggerservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_buzzer.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_adc.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_interrupt.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_keys.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_suart.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gatt_uuid.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\dataloggerservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\digitalservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_uvi.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_air.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\ByteBuffer.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Gate.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\devinfoservice-df.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OnBoard.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\battservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_mag.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_mag.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\magnetometerservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_acc.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\central.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\luxometerservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\weatherservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\peripheral.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\weatherservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_Memory.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_crc.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\analogservice.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DevInfo\devinfoservice.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_buzzer.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\df_util.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_Timers.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_lux.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\osal_bufmgr.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\airservice.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\math.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_Memory.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OnBoard.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\magnetometerservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_crc.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gateservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\dl_target.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\include\bcomdef.h</file>
+      <file>$PROJ_DIR$\..\..\common\npi\npi_np\npi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Clock.h</file>
+      <file>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_PTM.lib</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\ZComDef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_bufmgr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Memory.c</file>
+      <file>$PROJ_DIR$\..\..\common\npi\npi_np\npi.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\airservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\central.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\osal_bufmgr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Memory.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\ccservice.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_cbtimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\osal_cbtimer.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\alarmservice.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_PwrMgr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Timers.c</file>
+      <file>$PROJ_DIR$\..\..\Libraries\Common\bin\CC254x_BLE_HCI_TL_peri_observ.lib</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Batt\CC254x\battservice.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\osal_snv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_PwrMgr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\mcu\cc2540\osal_snv.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\analogservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\alarmservice.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_ClockBLE.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\accservice.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Timers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Tasks.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\osal\include\OSAL_Nv.h</file>
+      <file>$PROJ_DIR$\..\..\Include\gatt_profile_uuid.h</file>
+      <file>$PROJ_DIR$\..\..\Include\gattservapp.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dl.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\intempservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\luxometerservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\devinfoservice-df.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\HIDDev\CC254x\hiddev.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\OAD\oad.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\testservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\digitalservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dataloggerservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\eventservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\magnetometerservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\OAD\oad_target.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\uviservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\df_util.h</file>
+      <file>$PROJ_DIR$\..\..\Include\gapgattserver.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\registerservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\weatherservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\accservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dl_target.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\ioservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Keys\simplekeys.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\airservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\gateservice.h</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\ioservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\magnetometerservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\peripheral.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\HIDDev\CC254x\hiddev.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\testservice.c</file>
+      <file>$PROJ_DIR$\buildConfig.cfg</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dataloggerservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\GATT\gattservapp_util.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\analogservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\luxometerservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\digitalservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\ccservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Keys\CC254x\simplekeys.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\registerservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\gap.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\gateservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\uviservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Batt\CC254x\battservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\eventservice.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\host\gatt_uuid.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\intempservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\weatherservice.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\central.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\devinfoservice-df.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dl_target.c</file>
+      <file>$PROJ_DIR$\..\..\Profiles\OAD\oad_target.c</file>
+      <file>$PROJ_DIR$\..\..\config\buildComponents.cfg</file>
+      <file>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\df_util.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\ble\controller\CC254x\include\ll_sleep.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_air.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_keys.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_pir.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\osal_snv.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\uviservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_drivers.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\airservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\alarmservice.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_assert.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\luxometerservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_PwrMgr.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gap.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_led.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_uvi.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_drivers.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\central.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_debug.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\OSAL_Timers.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\osal_bufmgr.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\serialInterface.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\peripheral.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Net_Core.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\peripheral.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gap.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_aes.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_pir.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\central.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\dataloggerservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_crc.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_uvi.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_mag.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_sensor.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_sleep.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\gap.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\Profiles\ScanParam\scanparamservice.h</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\osal_bufmgr.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\oad_target.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\uviservice.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\npi.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hiddev.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\serialInterface.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_i2c.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\magnetometerservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_startup.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\intempservice.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_uart.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hiddev.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\devinfoservice-df.pbi</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_keys.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\hal_led.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly.pbd</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\DragonFly_Oad.__cstat.et</file>
+      <file>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Obj\df_util.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\uart\_hal_uart_dma.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\Source\serialInterface.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 408</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 430</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 39 52 10 13 2 9 1 298 75 4 46 3 314 309 8 61 12 299 7 327</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 61 39 40 4 46 52 3 2 12 1 314 9 8 7 309 327 299 13 298 10 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\OSAL_DragonFly.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 191</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 245</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 4 307 119 13 52 93 314 26 298 61 11 331 327 39 328 332 10 356 24 7 3 2 115 122 121 94 312 27 19 1 21 9 309 8 46 80 118 12 92 347 299</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 4 314 9 8 7 2 309 327 328 121 39 40 46 52 3 12 11 298 94 115 80 61 92 93 312 119 122 26 332 27 118 331 10 307 356 347 19 1 299 24 21 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DragonFly_Gate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 268</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 39 314 356 7 298 27 4 2 327 80 320 331 1 3 12 69 118 347 61 82 115 19 40 52 9 309 8 119 299 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 320 82 69 27 118 119 115 11 80 331 19 356 347 1 61 299</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\ByteBuffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 226</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 40 52 12 108 327 4 3 18 9 309 8 2 39 46 314</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 314 9 8 7 4 2 309 327 18 108 39 40 46 52 3 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DragonFly_Main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 244</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 327 328 4 121 13 46 2 3 88 80 319 81 108 314 320 82 40 52 12 7 9 309 8 69</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 4 39 40 46 52 3 2 12 88 81 121 108 80 314 9 8 7 309 327 328 320 319 82 69 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DragonFly_Net_Core.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 410</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 230</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 27 12 2 4 122 3 327 7 320 331 108 24 46 39 298 118 314 11 82 10 307 115 21 1 42 13 40 52 69 26 9 309 8 119 80 299</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 320 82 69 122 26 10 307 27 118 119 115 11 80 331 21 1 61 299 108 42 13 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DragonFly_Oad.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 442</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 338 27 12 320 24 10 3 4 7 69 118 314 82 331 310 345 46 39 2 327 298 87 40 52 9 309 8 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 320 82 69 27 118 119 331 24 310 338 87 345 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DragonFly.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 189</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 394</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 412</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 7 314 19 61 108 326 46 39 331 115 332 35 347 4 69 118 11 298 320 42 85 95 343 75 107 3 12 2 327 93 82 121 117 88 27 94 13 21 10 18 34 89 96 110 1 40 52 9 309 8 119 80 92 122 26 299</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 320 82 69 121 42 117 108 88 85 27 118 119 115 11 80 94 61 92 93 95 13 19 21 331 10 332 122 26 343 347 326 18 75 34 35 89 107 96 91 110 1 299</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 239 213 201 222</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sleep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 422</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 237</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 235</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 327 108 80 39 9 3 85 320 177 40 52 8 4 69 88 314 328 77 386 227 46 7 309 12 298</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 69 108 88 85 7 314 9 8 309 327 328 320 77 80 386 298 177 227</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_mag.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 272</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 420</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 39 7 75 120 4 110 85 40 52 3 2 28 78 46 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 28 120 8 110 4 7 2 75 85 39 40 46 52 3 12 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_uvi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 401</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 419</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 120 7 91 39 78 291 4 46 8 75 85 86 40 52 3 12 28</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 75 78 7 85 91 86 28 120 8 291</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_suart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 261</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 314 3 4 7 77 28 46 39 78 75 229 120 40 52 2 327 8 9 309</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 78 7 77 75 314 9 8 309 327 229 28 120</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_weather.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 254</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 2 40 39 86 4 75 28 107 85 46 3 12 7 120 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 107 7 75 85 86 28 120 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_keys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 388</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 439</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 39 40 84 4 314 12 2 309 8 77 88 46 3 9 7 327</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 3 39 40 4 46 52 2 12 77 84 88 314 9 8 7 309 327</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 224</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 400</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 440</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 9 77 3 4 2 314 46 39 8 108 40 52 309 7 327</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 77 108 314 9 8 7 309 327</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_acc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 251</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 7 2 86 4 75 40 52 3 12 34 85 46 28 120 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 34 7 75 85 86 28 120 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_air.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 387</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 39 86 4 75 3 12 28 35 85 40 52 2 7 120 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 35 7 75 85 86 28 120 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_pir.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 415</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 389</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 75 4 46 39 89 40 52 3 12 7</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 89 7 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 421</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 40 4 2 108 3 39 85 86 7 46 12 75 28 120 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 75 4 85 7 2 108 39 40 46 52 3 12 86 28 120 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\uart\hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 435</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 444 3 8 61 2 80 121 28 4 46 229 40 52 39 72 7 12 120 298</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 121 61 28 120 8 444 229 298 7 80 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\OnBoard.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 241</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 270</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 293</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 39 52 2 309 108 8 314 89 4 69 82 88 7 46 3 12 9 298 327</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 82 69 314 9 8 309 327 108 88 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_buzzer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 255</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 257</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 285</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 4 2 39 40 52 3 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_startup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 433</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 199</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 4 2 39 40 52 3 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_lux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 288</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 39 96 4 75 3 12 7 2 107 85 86 40 52 28 120 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 107 7 75 85 96 86 28 120 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_qi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 252</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 210</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 4 7 39 40 52 3 75 46 90 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 90 7 4 2 75 39 40 46 52 3 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 258</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 194</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 12 2 46 3 84 40 52 39</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 396</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 39 4 46 40 52 3 80 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 80 4 39 40 46 52 3 2 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 418</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 282</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 4 2 39 40 52 3 12 71</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_debug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 236</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 404</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 2 4 40 52 39 28 86 46 12 120 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 86 28 120 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 253</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 4 46 3 12 61 40 52 2 72</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 72 39 40 4 46 52 3 2 12 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_drivers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 392</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 402</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 77 9 7 69 107 320 8 2 39 88 4 89 91 35 87 309 46 108 81 61 84 90 96 78 110 85 72 42 327 40 52 3 12 314</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 314 9 8 7 4 2 309 327 39 40 46 52 3 12 88 108 69 81 61 77 84 89 90 107 96 91 78 34 110 35 85 320 72 87 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 212</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 232</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 40 76 52 2 4 72 46 39 3</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 40 4 46 52 39 3 2 12 72 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 431</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 52 39 2 85 7 4 28 86 46 3 12 80 120 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 80 39 40 4 46 52 3 2 12 85 7 86 28 120 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_interrupt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 259</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 90 40 52 3 4 7 2 34 78 39 88 89 85 46</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 88 34 7 89 90 85 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\hal\target\Cc2541df\hal_aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 414</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 39 72 327 4 46 2 87 9 309 8 40 52 3 314 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 314 9 8 7 4 2 309 327 87 72 39 40 46 52 3 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CC2541DF-DragonFly-OAD-ImgB\Exe\DragonFly.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 213 201 222</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 238 133 290 132 185 250 171 102 113 166 276 417 269 147 208 297 394 206 244 230 192 180 413 243 196 172 148 275 194 414 387 223 257 418 236 159 392 212 220 259 388 400 154 272 389 252 421 237 433 261 228 401 165 429 124 221 274 428 211 270 139 289 151 195 191 178 398 390 406 279 408 182 137 427 278 437</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_bufmgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 289</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 425</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 314 39 9 40 52 308 309 3 12 82 7 327 8 2 69 46</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 314 9 8 7 4 2 309 327 82 39 40 46 52 3 12 69 308</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Memory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 281</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 82 7 69 4 2 314 80 327 39 309 3 8 9 40 52 155 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 155 8 7 4 2 314 9 309 327 82 39 40 46 52 3 12 69 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\npi\npi_np\npi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 247</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 428</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 40 52 4 299 3 12 46 2 61</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 4 39 40 46 52 3 2 12 299 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\osal_cbtimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 309 39 52 40 4 3 9 8 2 7 328 312 327 12 46 314 298</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 314 9 8 7 4 2 309 327 328 3 39 40 46 52 12 312 298</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_PwrMgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 398</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 4 3 328 12 82 320 40 52 39 314 327 2 46 69 309 7 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 7 4 2 39 40 46 52 3 12 82 69 314 9 8 309 327 328 320</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_Timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 406</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 327 40 52 39 7 82 2 314 81 4 46 12 69 9 309 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 7 82 69 314 9 8 309 327 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 246</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 300 3 4 314 309 121 12 39 7 328 320 82 46 9 8 229 40 52 2 327 69</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 229 8 39 40 4 46 52 3 2 12 121 7 314 9 309 327 328 320 300 82 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\mcu\cc2540\osal_snv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 390</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 314 39 2 80 46 327 76 7 319 63 40 52 3 12 117 9 309 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 117 4 39 40 46 52 3 2 12 76 7 314 9 8 309 327 319 80 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\alarmservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 395</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 331 12 2 309 27 347 3 4 176 186 313 7 46 39 9 8 298 40 52 118 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 313 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\osal\common\OSAL_ClockBLE.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 248</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 314 39 8 40 52 327 3 12 82 300 2 69 46 7 9 309</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 7 4 2 82 39 40 46 52 3 12 69 314 9 8 309 327 300</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\accservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 331 12 2 309 27 347 3 4 176 186 326 7 46 39 9 8 298 40 52 118 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 326 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\airservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 290</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 393</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 331 12 2 309 27 347 3 4 176 186 306 7 46 39 9 8 298 40 52 118 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 306 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\magnetometerservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 294</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 274</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 432</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298 118 331 327 7 27 347 40 52 39 2 176 186 344 4 119 314 46 3 12 9 309 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 344 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\peripheral.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 409</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 279</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 411</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298 319 122 40 52 39 2 7 11 94 118 332 314 119 176 27 10 4 46 3 12 327 92 26 9 309 8 115 61 93 80</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 94 115 11 80 61 92 93 119 122 26 176 118 27 319 10 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\HIDDev\CC254x\hiddev.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 436</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 429</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 330 115 284 46 39 82 331 10 424 4 2 327 298 314 27 348 186 176 332 318 337 3 12 69 118 11 40 52 9 309 8 119 80 122 26</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 82 69 27 118 119 115 11 80 348 331 186 330 176 10 332 122 26 284 318 424 337</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\testservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 340 8 331 27 40 52 39 2 9 118 176 4 309 298 186 332 347 7 46 3 12 327 119 122 26</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 176 118 119 27 186 331 332 122 26 340 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dataloggerservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 417</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 263</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 8 331 12 27 347 3 4 9 298 176 186 342 7 46 39 2 309 40 52 118 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 342 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\GATT\gattservapp_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 8 3 12 298 27 7 4 46 9 176 331 39 40 52 2 309 118 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 331</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\analogservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 283</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298 118 331 327 7 27 347 40 52 39 2 176 186 323 4 119 314 46 3 12 9 309 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 323 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\luxometerservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 277</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 397</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 331 12 2 309 27 347 3 4 176 186 335 7 46 39 9 8 298 40 52 118 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 335 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\digitalservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 264</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 331 12 2 309 27 347 3 4 176 186 341 7 46 39 9 8 298 40 52 118 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 341 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\ccservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 2 314 118 310 40 39 9 331 27 8 176 4 309 298 186 332 347 7 46 3 12 327 119 122 26</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 176 118 119 27 186 331 332 122 26 310 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Keys\CC254x\simplekeys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298 4 354 3 7 331 27 12 176 46 39 2 327 119 314 118 186 332 347 40 52 9 309 8 122 26</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 176 118 119 27 186 331 332 122 26 354 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\gap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 399</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 413</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 423</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 2 40 39 298 309 26 4 9 122 7 46 3 12 314 327 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 122 314 9 8 309 327 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\gateservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 234</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 296</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 331 2 27 347 39 118 327 7 298 176 186 356 40 52 4 119 314 46 3 12 9 309 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 356 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\gapbondmgr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 243</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 218</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298 4 9 176 331 7 319 186 332 46 39 8 314 80 122 27 115 348 3 12 309 119 40 52 2 327 26 118 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 39 40 4 46 52 3 2 12 298 7 314 9 8 309 327 319 122 26 176 27 118 119 186 115 11 80 331 348 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\uviservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 427</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 391</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 331 12 2 309 27 347 3 4 176 186 346 7 46 39 9 8 298 40 52 118 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 346 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Batt\CC254x\battservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 271</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 250</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 331 4 7 118 46 39 314 117 186 318 3 12 2 327 298 176 27 330 337 40 52 9 309 8 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 117 176 118 119 27 186 330 331 337 318</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\eventservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 8 331 12 27 347 7 3 4 9 298 176 186 343 39 46 2 309 40 52 118 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 343 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Components\ble\host\gatt_uuid.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 262</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 327 7 298 27 118 39 2 119 314 186 9 309 8 46 40 52 3 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 7 4 2 314 9 8 309 327 27 298 39 40 46 52 3 12 118 119 186</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\intempservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 434</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 331 12 2 309 27 347 3 4 176 186 334 7 46 39 9 8 298 40 52 118 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 334 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\weatherservice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 280</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 278</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314 331 12 2 309 27 347 3 4 176 186 350 7 46 39 9 8 298 40 52 118 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 27 314 9 8 309 327 118 119 186 331 350 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\Roles\CC254x\central.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 416</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 276</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 403</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 4 27 327 122 94 46 39 2 298 93 314 312 176 332 3 12 115 319 119 118 307 40 52 61 80 26 9 309 8 92 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 312 319 94 115 11 80 61 92 93 119 176 118 27 122 26 332 307</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\devinfoservice-df.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 438</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 269</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 52 186 40 39 9 298 118 331 8 314 27 330 336 4 309 7 46 3 12 327 119</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 314 9 8 309 327 118 119 27 186 330 331 336</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\dl_target.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 297</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298 76 39 309 331 186 352 2 4 118 87 347 40 52 119 9 8 314 176 27 71 72 333 7 46 3 12 327</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 118 314 9 8 309 327 119 27 186 331 87 71 76 72 333 352 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\OAD\oad_target.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 426</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 327 7 76 46 39 298 314 331 186 345 4 2 118 87 347 3 12 176 27 71 72 338 40 52 119 9 309 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 176 118 314 9 8 309 327 119 27 186 331 87 71 76 72 338 345 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Profiles\DragonflyProfile\df_util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 286</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 443</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 298 347 7 4 46 118 327 27 176 39 40 52 2 119 331 12 314 9 309 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384 362 298 39 40 4 46 52 3 2 12 7 27 314 9 8 309 327 118 119 347 331 176</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

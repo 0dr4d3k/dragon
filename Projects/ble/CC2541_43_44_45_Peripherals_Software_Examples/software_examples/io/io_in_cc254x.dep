@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2428422504</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\source\components\ioCC254x_bitdef.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nlxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\io_in_cc254x.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\io_in_cc254x.d51</file>
+      <file>$PROJ_DIR$\Debug\Obj\io_in.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\io_in.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\io_in.pbi</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc2543F32.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2541.h</file>
+      <file>$PROJ_DIR$\source\io_in.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\io_in_cc254x.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 7 5 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\io_in.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 0</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 0 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

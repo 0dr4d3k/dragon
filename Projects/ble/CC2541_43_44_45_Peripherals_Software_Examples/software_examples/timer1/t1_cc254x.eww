@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>C:\ruben\BLE-CC254x-1.4.1.43908b-original\Projects\ble\KeyFob\CC2541DB\KeyFobDemo.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\t1_cap_cc254x.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\t1_free_cc254x.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\t1_mod_cc254x.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\t1_updown_cc254x.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

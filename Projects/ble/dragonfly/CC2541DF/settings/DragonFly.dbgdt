@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1861</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1395</ColumnWidth1><ColumnWidth2>372</ColumnWidth2><ColumnWidth3>93</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>296</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+      <TerminalIO>
+        
+        
+        
+        
+        
+      <InputSource>1</InputSource><InputMode>10</InputMode><Filename>$PROJ_DIR$\TermIOInput.txt</Filename><InputEcho>1</InputEcho><ShowReset>0</ShowReset></TerminalIO>
+      <Memory>
+        
+      <FindAsHex>0</FindAsHex></Memory>
+      <Register/>
+      <WATCH_1>
+        <expressions>
+          
+        <item>pMsg</item><item>pkt</item><item>pData</item><item>uartTxBuffer[uartTxIndex++]</item><item>cmd_identifier</item><item>pGapRoles_AppCGs</item><item>pGapRoles_AppCBs</item><item>new_role</item><item>deviceRole</item><item>pEvent</item><item>deviceList[i]</item><item>pMsg</item><item></item></expressions>
+        <col-names>
+          
+          
+          
+          
+        <item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names>
+        <col-widths>
+          
+          
+          
+          
+        <item>170</item><item>150</item><item>188</item><item>434</item></col-widths>
+      </WATCH_1>
+      <Auto>
+        <col-names>
+          <item>Expression</item>
+          <item>Location</item>
+          <item>Type</item>
+          <item>Value</item>
+        </col-names>
+        <col-widths>
+          <item>100</item>
+          <item>150</item>
+          <item>100</item>
+          <item>100</item>
+        </col-widths>
+      </Auto>
+      <QuickWatch>
+        <col-names>
+          
+          
+          
+          
+        <item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names>
+        <col-widths>
+          
+          
+          
+          
+        <item>100</item><item>150</item><item>100</item><item>100</item></col-widths>
+        <QWatchHistory><item>pMsg</item><item>cmd_identifier</item></QWatchHistory>
+      </QuickWatch>
+      <CallStack>
+        <col-names>
+          
+          
+        <item>Frame</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>3500</item><item>20</item></col-widths>
+      </CallStack>
+    <Find-All-Declarations><ColumnWidth0>297</ColumnWidth0><ColumnWidth1>42</ColumnWidth1><ColumnWidth2>510</ColumnWidth2></Find-All-Declarations><Find-in-Files><ColumnWidth0>236</ColumnWidth0><ColumnWidth1>42</ColumnWidth1><ColumnWidth2>382</ColumnWidth2><ColumnWidth3>170</ColumnWidth3></Find-in-Files><Select-Ambiguous-Definitions><ColumnWidth0>378</ColumnWidth0><ColumnWidth1>42</ColumnWidth1><ColumnWidth2>510</ColumnWidth2></Select-Ambiguous-Definitions><Find-All-References><ColumnWidth0>266</ColumnWidth0><ColumnWidth1>38</ColumnWidth1><ColumnWidth2>456</ColumnWidth2></Find-All-References></Static>
+    <Windows>
+      
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          
+          <Tab>
+            <Identity>TabID-4615-12287</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-29834-12633</Identity>
+            <TabName>Breakpoints</TabName>
+            <Factory>Breakpoints</Factory>
+          </Tab>
+          <Tab>
+            <Identity>TabID-18040-12650</Identity>
+            <TabName>Memory</TabName>
+            <Factory>Memory</Factory>
+            <Session>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            <ZoneNumber>1</ZoneNumber><SelectionAnchor>6228</SelectionAnchor><SelectionEnd>6228</SelectionEnd><UnitsPerGroup>1</UnitsPerGroup><EndianMode>0</EndianMode><DataCovEnabled>0</DataCovEnabled><DataCovShown>0</DataCovShown><AutoRefresh>0</AutoRefresh><HScroll>0</HScroll><VScroll>376</VScroll></Session>
+          </Tab>
+        <Tab><Identity>TabID-21277-7741</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-30657-11363</Identity><TabName>Declarations</TabName><Factory>Find-All-Declarations</Factory><Session/></Tab><Tab><Identity>TabID-3281-28330</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-3691-7203</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab><Tab><Identity>TabID-6947-20151</Identity><TabName>References</TabName><Factory>Find-All-References</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>3</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-15886-12281</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>DragonFly</ExpandedNode><ExpandedNode>DragonFly/APP</ExpandedNode><ExpandedNode>DragonFly/HAL</ExpandedNode><ExpandedNode>DragonFly/HAL/Board</ExpandedNode><ExpandedNode>DragonFly/HAL/Board/OnBoard</ExpandedNode><ExpandedNode>DragonFly/HAL/Config</ExpandedNode><ExpandedNode>DragonFly/HAL/Target</ExpandedNode><ExpandedNode>DragonFly/HAL/Target/Drivers</ExpandedNode><ExpandedNode>DragonFly/HAL/Target/Includes</ExpandedNode><ExpandedNode>DragonFly/Output</ExpandedNode><ExpandedNode>DragonFly/PROFILES</ExpandedNode><ExpandedNode>DragonFly/TOOLS</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-26634-12284</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-13335-12738</Identity>
+            <TabName>Register</TabName>
+            <Factory>Register</Factory>
+            <Session>
+              
+              
+              
+              
+            <State10>PERCFG</State10><State11>U0CSR</State11><State9>U0CSR</State9><REG1>0</REG1><REG2>0</REG2><Group>3</Group><States>9</States><State0>DMAIRQ</State0><State1>IEN1</State1><State2>IEN2</State2><State3>P1</State3><State4>P1DIR</State4><State5>P1IEN</State5><State6>P1IFG</State6><State7>P1SEL</State7><State8>U0CSR</State8></Session>
+          </Tab>
+          <Tab>
+            <Identity>TabID-11014-12986</Identity>
+            <TabName>Call Stack</TabName>
+            <Factory>CallStack</Factory>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-26927-12483</Identity>
+            <TabName>Terminal I/O</TabName>
+            <Factory>TerminalIO</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-10198-12797</Identity>
+            <TabName>Watch 1</TabName>
+            <Factory>WATCH_1</Factory>
+          </Tab>
+          <Tab>
+            <Identity>TabID-6539-12865</Identity>
+            <TabName>Auto</TabName>
+            <Factory>Auto</Factory>
+          </Tab>
+          <Tab>
+            <Identity>TabID-4447-12904</Identity>
+            <TabName>Quick Watch</TabName>
+            <Factory>QuickWatch</Factory>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+      
+    <Pane/><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-04A97858><key>iaridepm.enu1</key></Toolbar-04A97858><Toolbar-21D84818><key>debuggergui.enu1</key></Toolbar-21D84818></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>685</Bottom><Right>418</Right><x>-2</x><y>-2</y><xscreen>408</xscreen><yscreen>484</yscreen><sizeHorzCX>212500</sizeHorzCX><sizeHorzCY>471735</sizeHorzCY><sizeVertCX>218750</sizeVertCX><sizeVertCY>669591</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>685</Bottom><Right>486</Right><x>-2</x><y>-2</y><xscreen>408</xscreen><yscreen>484</yscreen><sizeHorzCX>212500</sizeHorzCX><sizeHorzCY>471735</sizeHorzCY><sizeVertCX>254167</sizeVertCX><sizeVertCY>669591</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>293</Bottom><Right>784</Right><x>-2</x><y>-2</y><xscreen>786</xscreen><yscreen>295</yscreen><sizeHorzCX>409375</sizeHorzCX><sizeHorzCY>287524</sizeHorzCY><sizeVertCX>212500</sizeVertCX><sizeVertCY>471735</sizeVertCY></Rect></Wnd0><Wnd3><Rect><Top>0</Top><Left>0</Left><Bottom>312035512</Bottom><Right>312034016</Right><x>782</x><y>-2</y><xscreen>1140</xscreen><yscreen>295</yscreen><sizeHorzCX>593750</sizeHorzCX><sizeHorzCY>287524</sizeHorzCY><sizeVertCX>212500</sizeVertCX><sizeVertCY>1826511</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

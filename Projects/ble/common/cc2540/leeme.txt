@@ -1,0 +1,14 @@
+Original post buil commands do no work. Try this:
+1.- In "$PROJ_DIR$\..\..\common\CC2540\ 
+2.- type: cc254x_ubl_pp.js "ProdUBL" "dragonfly.sim"
+3.- change dragonfly.sim by your make *.sim
+
+Original command ->"$PROJ_DIR$\..\..\common\CC2540\cc254x_ubl_pp.bat" "$PROJ_DIR$" "ProdUBL" "$PROJ_DIR$\CC2541DF-OAD-ImgA\Exe\dragonfly"
+
+ok -> start cc254x_ubl_pp.js "ProdUBL" "d:\local\Dragonfly\work\BLE-CC254x-1.4.1.43908b\Projects\ble\dragonfly\CC2541DB\CC2541DF-OAD-ImgA\Exe\dragonfly.sim"
+
+ok -> "D:\local\Dragonfly\work\BLE-CC254x-1.4.1.43908b\Projects\ble\dragonfly\CC2541DB\..\..\common\CC2540\cc254x_ubl_pp.bat" "D:\local\Dragonfly\work\BLE-CC254x-1.4.1.43908b\Projects\ble\dragonfly\CC2541DB" "ProdUBL" "D:\local\Dragonfly\work\BLE-CC254x-1.4.1.43908b\Projects\ble\dragonfly\CC2541DB\CC2541DF-OAD-ImgA\Exe\dragonfly.sim" 
+
+ok -> d:\local\Dragonfly\work\BLE-CC254x-1.4.1.43908b\Projects\ble\common\cc2540\Dragonfly-ImgA.bat d:\local\Dragonfly\work\BLE-CC254x-1.4.1.43908b\Projects\ble\dragonfly\CC2541DB
+
+

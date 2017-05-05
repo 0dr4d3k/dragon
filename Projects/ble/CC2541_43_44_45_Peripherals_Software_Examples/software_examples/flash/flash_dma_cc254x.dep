@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2854558921</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\source\components\hal_types.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_dma.r51</file>
+      <file>$PROJ_DIR$\source\flash_dma.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_dma_cc254x.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\flash_dma_cc254x.d51</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_dma.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2541.h</file>
+      <file>$PROJ_DIR$\source\components\ioCC254x_bitdef.h</file>
+      <file>$PROJ_DIR$\source\components\dma.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\flash_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 0 8 7 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 6 7 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

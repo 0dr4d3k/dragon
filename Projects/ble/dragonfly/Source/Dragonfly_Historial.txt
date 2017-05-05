@@ -1,0 +1,59 @@
+2016-05-16
++ Working core with finals dragonfly v7.0e hardware. 
++ Dragonfly Plants, Thermostat, Core and Air quality supported.
++ Improbed datalogger simple service.
++ Solve failuires in Analog service.
+
+2016-04-21
++ Now large ImgB and small ImgA working. Let´s works!!
++ If you are working in IAR with ImgB and you want to load ImgA for test pruposes, you must Modify CRC and CRCshadow to permit bootloader jump to ImgA (ImgB has priority). Another way is reload again BIM and clear ImgB memory Section.
++ New subversion control backups files.
++ Go back to solve ImgA issue.
++ Now minimal ImgA(110K) -> maximal ImgB(146K). Without implement linker files.
++ Added DF_minimal in compiler settings. This eliminates Bond manager and NV memory handled. 
++ Tested OAD and generated ImA.bin and ImgB.bin files to upload. Recomendated settings for OAD in GAP are 20ms max/min intervals 0 latency and 2000ms for timeout. In Conection Control Service this is: 10:00:10:00:00:00:E8:02.
+
+2016-04-20:
++ Added ImgB to Dragonfly projet. B large image. A small image.
++ New files df[..]ImgA.xcl anf df[..]ImgB.xcl
++ Modified BIM
+n ImgA does not compile try solve this issue and give more code space for program in ImgB
+
+2016-04-19:
+n First attempt of datalogger service based on OAD service
++ Added New Service DL with same characteristics as OAD. Modified cc254x_f256_imgA.xcl
+  Linker configuration file adding:
+  -D_CODE_BEG=0x0860 //In code mapping start
+  -Z(CODE)DL_HEADER=0x830-0x83D //Memory ROM Header for datalogger download
+  -Z(CODE)AES_DL_HEADER=0x83E-0x85F //Memory ROM for AES datalogger download
+  In the same way it is necessary modify Bootloader main program and interruption vector
+  in bim_ivec.s51 file:
+  IMGA  EQU  0x0830 -> IMGA  EQU  0x0860 // in *.s51 
+  asm("LJMP 0x0830"); -> asm("LJMP 0x0860"); //In main jump 
+  Modify also oad_target.c
+n Thinking to use old datalogger service
+
+2016-04-18:
++ Added HAL for Luxometer. Simple example working on luxometer service.
+
+
+Dragonfly Historial:
+New Dragonfly Historial with changes follow in order to show work in progress.
+Initial State:
+Added support HAL and Profiles for all Dragonfly services and sensors:
+HAL for Accelerometer working with Interruptions over I2C. Interrupution on double tap
+are mapped to INT1 and Interrupt INT2 mapped to RESET.
+HAL for Bosh.
+HAL for PIR
+HAL for CC VOC Air sensor.
+HAL for Luxometer
+Pending:
+HAL Acc: Watchdog for I2C bus (security option). Reset interruption. Service 
+         configuration.
+
+
+
+
+
+ 
+  

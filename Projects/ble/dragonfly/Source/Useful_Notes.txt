@@ -1,0 +1,47 @@
+--------------------------------------------------
+I like this presetation web
+http://jhipster.github.io/presentation/#/6/2
+--------------------------------------------------
+netBeans
+http://www.taringa.net/comunidades/salvadorenosentaringa/3004660/Programacion-en-java-con-netbean-manual.html
+--------------------------------------------------
+stac_overflow:
+
+INT_HEAP_LEN=3072
+
+Origina sizes
+STACK Sizes:
+IDATA:0xC0
+PDATA:0x80
+XDATA:0x280 
+
+Cuando se pierde el booloader es síntoma de un STACK overflow. 
+Para saolucionarlo he ampliado:
+XDATA:0x280 -> 0x302
+
+Bueno, después de ver este hilo, este tema queda zanjado:
+https://e2e.ti.com/support/wireless_connectivity/bluetooth_low_energy/f/538/t/229990
+
+La memoria de datos está dividida en Stack y Heap. Si aumentamos la memoria reservada par Stack tenemos que disminuir el Heap. En total no se puede sobrepasar la memora SRAM disponible en el CC2541 8K
+
+He modificado el HEAP en preprocessor definitions:
+INT_HEAP_LEN=3000
+
+Nota interesante.-
+setting the preprocessor define "OSALMEM_METRICS=TRUE" in the project options and then putting a watch on the variable memMax, memAlo, etc found on lines 181-185 of OSAL_Memory.c. memMax will show you the maximum ever allocated dynamically.
+
+
+-----------------------------------------------------
+Otro hilo con solución para desbordamiento de memoria:
+https://e2e.ti.com/support/wireless_connectivity/zigbee_6lowpan_802-15-4_mac/f/158/t/116402
+
+Its telling you there isn't enough room for all of your global variables.  The XDAT_I segment is for initialized global and static variables.  The size of the data the compiler determined needed to go into this segment was 0x3A5 (933) bytes.  At the time of placement the XDATA allocation pointer was pointing at 0xFBEE and the XDATA segment ends at 0xFEFF leaving only 0xFEFF-0xFBEE+1=0x312 (786) bytes to place these variables.  Note that 0x3A5-0x312=0x93 (147) bytes as the error indicates are needed if you are going to place this amount of data.
+
+You have a couple of options.
+
+See if you can reduce the number or sizes of your global or static variables.  Perhaps you have many debugging variables or arrays are allocated larger than necessary.
+Tell the compiler to place initialized constants into ROM instead of RAM.  This will free up memory which is basically read only.  You can also use the type modifier __code or possibly __xdata_rom to place only certain larger variables or arrays in flash.
+Your stack size is 768 bytes in size.  This amount may not be necessary and if you can make it smaller then you will free up memory for more global variables.
+Jim Noxon
+
+

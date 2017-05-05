@@ -1,0 +1,20 @@
+
+
+
+CODE Memory:
+
+0x48000:0x4EFFF(14P)      - Bank4
+0x38000:0x3FFFF(16P)      - Bank3
+0x28000:0x2FFFF(16P)      - Bank2
+0x18000:0x1FFFF(16P)      - Bank1
+
+0x04060:0x07FFF(8P-16P)    - Common Code Area.
+
+
+0x0403F:0x0405F(8P-032b) - AES Datalogger. Defined in DL_Target when use DL secure
+0x04030:0x0403D(8P-014b) - Datalogger Header. Defined in DL_Target
+0x04010:0x0402F(8P-032b) - AES Image. Defined in OAD_Target when use OAD secure
+0x04002:0x0400F(8P-014b) - Image Header. Defined in OAD_Target
+0x04000:0x04001(8P-002b) - Checksum Used in BIM CRC check
+
+Start Page 8 (0x04000)(defined in OAD Target y BIM)

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1658455688</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\t1_mod.r51</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2543.h</file>
+      <file>$PROJ_DIR$\source\t1_mod.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\t1_mod.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\t1_mod_cc254x.d51</file>
+      <file>$PROJ_DIR$\Debug\Obj\t1_mod_cc254x.pbd</file>
+      <file>$PROJ_DIR$\source\components\ioCC254x_bitdef.h</file>
+      <file>$PROJ_DIR$\source\components\hal_types.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\t1_mod.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 6 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
