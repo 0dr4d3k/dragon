@@ -16,49 +16,49 @@ static gattAttribute_t gateAttrTable[] =
       {},
       ,
       ,
-      
+
     },
       // Characteristic Value "Data"
       {
         {},
         ,
         ,
-        
+
       },
       // Characteristic configuration
       {
         {},
         ,
         ,
-        
+
       },
     // Characteristic Declaration
     {
       {},
       ,
       ,
-      
+
     },
       // Characteristic Value "Configuration"
       {
         {},
         ,
         ,
-        
+
       },
      // Characteristic Declaration "Period"
     {
       {},
       ,
       ,
-      
+
     },
       // Characteristic Value "Period"
       {
         {},
         ,
         ,
-        
+
       },
 };
 
@@ -77,15 +77,15 @@ static gattAttribute_t gateAttrTable[] =
     NODE_IDLE = 0,
     NODE_CONECTED,
     NODE_DOWNLOADING,
-    NODE_DISCONNECTED    
-  } nodeState_t; 
+    NODE_DISCONNECTED
+  } nodeState_t;
 
   typedef enum
   {
     CONN_IDLE = 0,
     CONN_CONNECTED,
-    NODE_CONNECTING    
-  } connState_t; 
+    NODE_CONNECTING
+  } connState_t;
 
   // typedef for nodes
   typedef struct
@@ -114,9 +114,9 @@ static gattAttribute_t gateAttrTable[] =
     uint8 rDD = 0; // registered Devices
   } deviceDB_t;
 
-  // internal protected variables  
+  // internal protected variables
   static deviceDB_t deviceDB;
-  
+
   // calls type: deviceDB.conn[aD].node.name
 
 // function prototipes
@@ -136,35 +136,35 @@ static gattAttribute_t gateAttrTable[] =
       deviceDB.conn[i].handle = i;
       deviceDB.conn[i].addr[B_ADDR_LEN] = {0x00,0x00,0x00,0x00,0x00,0x00};
     }
-    
+
     return SUCCESS;
   }
-  
+
   uint8_t initDeviceDB()
   {
     conn_t conn;
-    
+
     deviceDB.aD  = 0;
     deviceDB.cDD = 0;
     deviceDB.rDD = 3;
-    
+
     connState_t state;
     uint8  handle;
     uint8  addr[B_ADDR_LEN];
-    node_t node;    
-    
+    node_t node;
+
     conn[0].state = CON_IDLE;
-    conn[0].handle     
- 
+    conn[0].handle
+
     for (uint8 i = 0; i < MAX_CONNECTIONS; i++)
     {
-      
+
       regDeviceDB(i, )
       deviceDB.conn[i].state  = CONN_IDLE;
       deviceDB.conn[i].handle = i;
       deviceDB.conn[i].addr[B_ADDR_LEN] = {0x00,0x00,0x00,0x00,0x00,0x00};
     }
-    
+
     return SUCCESS;
   }
 
@@ -174,4 +174,39 @@ static gattAttribute_t gateAttrTable[] =
     deviceDB.conn[connReg] = connNew;
     deviceDB.rDD++;
   }
-  
+
+//////////////////////////////////// a partir de aqui es test //////////////////
+  uint8_t nextDevice() // prototipe
+
+  uint8_t regDeviceDB(connNum, (conn_t *)connNew)
+  {
+    deviceDB.conn[connReg] = connNew;
+    deviceDB.rDD++;
+  }
+
+
+
+
+  uint8_t regDeviceDB(connState_t conn)
+  {
+    if (once) {
+      /* code */
+    } else if (/* condition */) {
+      /* code */
+    } else {
+      /* code */
+    }
+
+
+switch (control/* expression */) {
+  case /* value */:
+}
+
+//que pasa pero ninio dime que te pasa
+estabas enn tu casa y nno sabias nadaaaaaaaaaaaaa
+que
+
+
+que me tienes que decir???
+
+  }
